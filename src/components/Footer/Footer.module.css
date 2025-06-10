@@ -1,0 +1,26 @@
+@import "../../css/breakpoints.pcss";
+
+.footer {
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+
+    a {
+      font-size: 2rem;
+      color: var(--text);
+
+      :hover {
+        color: var(--text-highlight);
+      }
+    }
+  }
+
+  @media (--lg) {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+}

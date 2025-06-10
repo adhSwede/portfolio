@@ -1,0 +1,10 @@
+.header {
+  font-size: 3rem;
+  background: var(--teal-green);
+  background-size: 20% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* fallback */
+  margin-bottom: 1rem;
+}

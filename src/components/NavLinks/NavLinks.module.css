@@ -1,0 +1,49 @@
+@import "../../css/breakpoints.pcss";
+
+.hide-mobile {
+  display: none;
+}
+
+.nav-links {
+  box-sizing: border-box;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+  gap: 1rem;
+
+  a {
+    color: var(--text);
+    text-decoration-color: var(--bg-black);
+    text-underline-offset: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+  }
+
+  a:hover {
+    background-color: var(--hover-bg);
+  }
+
+  a.active {
+    text-decoration-color: white;
+  }
+}
+
+@media (--md) {
+  .nav-links {
+    width: 60%;
+    gap: 2rem;
+    font-size: 1.2rem;
+  }
+  .hide-mobile {
+    display: inline-block;
+  }
+}
+
+@media (--xl) {
+  .nav-links {
+    gap: 1rem;
+  }
+}

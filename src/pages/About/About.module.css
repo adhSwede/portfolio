@@ -1,0 +1,54 @@
+@import "../../css/breakpoints.pcss";
+
+.header {
+  font-size: 3rem;
+  background: var(--pink-purple);
+  background-size: 50% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* fallback */
+  margin-bottom: 1rem;
+}
+
+.portrait-container {
+  display: flex;
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+
+  .portrait {
+    min-width: 100%;
+    border-radius: 1rem;
+  }
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: auto;
+
+  p {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    white-space: pre-line;
+  }
+}
+
+@media (--lg) {
+  .header {
+    background-size: 20% 100%;
+  }
+
+  .portrait-container {
+    justify-content: flex-start;
+    width: fit-content;
+  }
+
+  .content-box {
+    flex-direction: row;
+  }
+}

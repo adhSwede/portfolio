@@ -1,0 +1,27 @@
+@import "../../css/breakpoints.pcss";
+
+.content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  padding-top: 15%;
+  padding-left: 2%;
+
+  .header {
+    font-size: 3.5rem;
+    background: var(--green-orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* fallback */
+    margin-bottom: 1rem;
+  }
+}
+
+@media (--lg) {
+  .content {
+    padding-top: 30%;
+  }
+}

@@ -1,0 +1,38 @@
+:root {
+  /* ########## [ Base colors ] ########## */
+  --bg-black: #08070b;
+  --text-highlight: #fff;
+  --text: #8f9ba8;
+  --hover-bg: rgba(143, 155, 168, 0.2);
+
+  /* ########## [ Gradients ] ########## */
+  --pink-purple: linear-gradient(
+    90deg,
+    rgba(251, 128, 194, 1),
+    rgba(170, 128, 242, 1)
+  );
+
+  --yellow-orange: linear-gradient(
+    90deg,
+    rgba(255, 251, 130, 1),
+    rgba(255, 168, 171, 1)
+  );
+
+  --teal-green: linear-gradient(
+    90deg,
+    rgba(129, 255, 230, 1),
+    rgba(135, 255, 156, 1)
+  );
+
+  --purple-teal: linear-gradient(
+    90deg,
+    rgba(148, 132, 254, 1),
+    rgba(135, 210, 241, 1)
+  );
+
+  --green-orange: linear-gradient(
+    90deg,
+    rgba(135, 255, 156, 1),
+    rgba(255, 168, 171, 1)
+  );
+}

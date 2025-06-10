@@ -1,0 +1,22 @@
+@import "../../css/breakpoints.pcss";
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+@media (--md) {
+  .pageContainer {
+    max-width: 50%;
+  }
+}
+
+@media (--lg) {
+  .pageContainer {
+    max-width: 45%;
+  }
+}
