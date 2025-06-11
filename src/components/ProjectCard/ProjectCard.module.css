@@ -1,0 +1,28 @@
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.2rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.projectCard:hover {
+  border-color: var(--text-highlight);
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.1);
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}

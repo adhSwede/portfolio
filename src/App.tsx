@@ -1,4 +1,5 @@
-import { Routes, Route } from "react-router";
+import { Routes, Route } from "react-router-dom";
+
 import "./css/App.css";
 
 // ########## [ Routes ] ##########
@@ -14,13 +15,15 @@ const App = () => {
   return (
     <main className="app">
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/uses" element={<Uses />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div className="routes-container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/uses" element={<Uses />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
       <Footer />
     </main>
   );
