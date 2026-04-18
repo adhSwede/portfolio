@@ -15,8 +15,8 @@ const AboutCopy = () => (
     <p>
       In my free time, I enjoy{" "}
       <strong>exploring new coding languages and frameworks, </strong>
-      tinkering with <strong>React</strong>, and drinking way too much coffee
-      ☕.
+      tinkering with <strong>software</strong> as well as{" "}
+      <strong>hardware</strong>, and drinking way too much coffee ☕.
     </p>
   </div>
 );
