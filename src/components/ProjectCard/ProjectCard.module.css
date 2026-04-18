@@ -13,8 +13,11 @@
   border-radius: 0.2rem;
   padding: 1rem;
   padding-left: 2rem;
-  transition: border 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    border 0.2s ease,
+    box-shadow 0.2s ease;
   cursor: pointer;
+  height: 100%;
 }
 .projectCard:hover {
   border-color: var(--text-highlight);
