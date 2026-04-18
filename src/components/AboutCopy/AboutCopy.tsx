@@ -8,7 +8,8 @@ const AboutCopy = () => (
     <br />
     <p>
       I'm a <strong>fullstack developer</strong> passionate
-      <br /> about building clean, accessible interfaces.
+      <br /> about building robust, reliable backends and clean, accessible
+      interfaces.
     </p>
     <br />
     <p>
